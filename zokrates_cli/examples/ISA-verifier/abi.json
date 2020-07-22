@@ -1,13 +1,33 @@
 {
   "inputs": [
     {
-      "name": "a",
+      "name": "hash0",
       "public": true,
       "type": "field"
     },
     {
-      "name": "b",
+      "name": "hash1",
       "public": true,
+      "type": "field"
+    },
+    {
+      "name": "a",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "b",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "c",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "d",
+      "public": false,
       "type": "field"
     }
   ],

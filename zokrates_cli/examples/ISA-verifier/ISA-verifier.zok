@@ -1,3 +1,7 @@
-// only using add, no need to flatten
-def main(field a, field b) -> (field):
-  return a + b
+import "hashes/sha256/512bitPacked" as sha256packed
+
+def main(field hash0, field hash1, private field a, private field b, private field c, private field d) -> (field):
+  h = sha256packed([a, b, c, d])
+  h[0] == hash0
+  h[1] == hash1
+  return 1
